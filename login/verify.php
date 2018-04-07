@@ -1,8 +1,8 @@
 <?php 
 error_reporting(0);
 session_start();
-define( "FB_ACCOUNT_KIT_APP_ID", "149895478982756" );
-define( "FB_ACCOUNT_KIT_APP_SECRET", "7a065e0f2d559b223960346f71ab7be0" );
+define( "FB_ACCOUNT_KIT_APP_ID", "enter" );
+define( "FB_ACCOUNT_KIT_APP_SECRET", "enter" );
 
 $code = $_POST['code'];
 $csrf = $_POST['csrf'];
