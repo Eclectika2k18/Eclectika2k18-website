@@ -1,9 +1,9 @@
 <?php
 session_start();
 $servername = "localhost";
-$username = "ecleca9f";
-$password = "newWeb16@ec#";
-$dbname = "ecleca9f_eclectika18";
+$username = "";
+$password = "";
+$dbname = "";
 
 $result="";
  $sql1 = 'INSERT INTO usereventsregister(id,username,eventname,contact,email,description,eventid) values('.$_SESSION['id'].',"'.$_SESSION['name'].'","'.$_POST["eventname"].'","'.$_SESSION['usernumber'].'","'.$_SESSION['email'].'","'.$_POST["eventdescription"].'",'.$_POST["eventid"].')' ;
