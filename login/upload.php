@@ -6,9 +6,9 @@ if($_SESSION['status'] == "loggedin")
   {
       
 		$servername = "localhost";
-		$username = "ecleca9f";
-		$password = "newWeb16@ec#";
-		$dbname = "ecleca9f_eclectika18";
+		$username = "";
+		$password = "";
+		$dbname = "";
 	
 	    
 	     	 $conn = new mysqli($servername, $username, $password, $dbname);
