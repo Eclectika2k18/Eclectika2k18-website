@@ -1,9 +1,9 @@
 <?php
 session_start();
 $servername = "localhost";
-$username = "ecleca9f";
-$password = "newWeb16@ec#";
-$dbname = "ecleca9f_eclectika18";
+$username = "";
+$password = "";
+$dbname = "";
 
 
 $result = "";
