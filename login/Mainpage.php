@@ -21,9 +21,9 @@ if($_SESSION['status'] == "loggedin")
 	{
     	$id = $name = $contact = $email = $branch =$college = "";
     $servername = "localhost";
-$username = "ecleca9f";
-$password = "newWeb16@ec#";
-$dbname = "ecleca9f_eclectika18";
+$username = "";
+$password = "";
+$dbname = "";
 
     // Create connection
       $conn = new mysqli($servername, $username, $password, $dbname);
